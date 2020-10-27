@@ -2,9 +2,9 @@
 
 This repository contains the source code of the paper *"An Epidemiological Neural network exploiting Dynamic Graph Structured Data applied to the COVID-19 outbreak"*. 
 
-Since the private nature of data used in our work, we cannot share data and experiments. The files *model.py* and *configuration.json* contain modules which can be easily plug in [this Pythorch template](https://github.com/victoresque/pytorch-template) to analyze your own data. Note that our model is designed to work with the library [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric) for the representation and analysis of graph data structures.
+Since the private nature of data used in our work, we cannot share data and experiments. The files *model.py* and *config.json* contain modules which can be easily plug in [this Pythorch template](https://github.com/victoresque/pytorch-template) to analyze your own data. Note that our model is designed to work with the library [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric) for the representation and analysis of graph data structures.
 
-## Model Architecture in a nutshell
+## Model Architecture in a Nutshell
 <p align="center">
   <img src="https://i.ibb.co/HYmMzbj/highlevelarch.png" alt="Model Architecture"/>
 </p>
