@@ -9,7 +9,7 @@ Since the private nature of data used in our work, we cannot share data and expe
   <img src="https://i.ibb.co/HYmMzbj/highlevelarch.png" alt="Model Architecture"/>
 </p>
 
-Our model takes in input a sequence of graphs representing places interconnected by movements between them. For each place and for each time step, we have one or more labels representing the ground truth of the epidemiological model which has to be applied to predict the next labels. Through the use of GCNs and LSTMs, the *Contact Rate Estimator* analyzes the sequence of changes in moviments between places until the current time step, aiming to tune the *contact rate* parameter of the epidemiological model (e.g. SIR, SIRD) applied on top of it. Though designed to analyze movements data, our architecture can be successfully used to tune other epidemiological parameters, such as *recovery rate*, if the proper features are used.
+Our model takes in input a sequence of graphs representing places interconnected by movements between them. For each place and for each time step, we have one or more labels representing the ground truth of the epidemiological model which has to be applied to predict the next labels. Through the use of GCNs and LSTMs, the *Contact Rate Estimator* analyzes the sequence of changes in movements between places until the current time step, aiming to tune the *contact rate* parameter of the epidemiological model (e.g. SIR, SIRD) applied on top of it. Though designed to analyze movements data, our architecture can be successfully used to tune other epidemiological parameters, such as *recovery rate*, if the proper features are used.
 
 ## Citation 
 Please acknowledge the following work in papers or derivative software:
